@@ -105,3 +105,10 @@ a {
     color-scheme: dark;
   }
 }
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./fonts/Inter-Regular.ttf") format("truetype");
+}
