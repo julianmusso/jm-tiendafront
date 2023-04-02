@@ -8,9 +8,9 @@ Este proyecto utiliza la API REST de WordPress para obtener información sobre p
 
 ## Cómo usar este proyecto
 
-1. Clona el repositorio en tu máquina local utilizando `git clone https://github.com/tu-usuario/tu-repositorio.git` 📥
+1. Clona el repositorio en tu máquina local utilizando `git clone https://github.com/julianmusso/jm-tiendafront.git` 📥
 2. Instala las dependencias utilizando `npm install` 📦
-3. Crea un archivo `.env.local` en la raíz del proyecto y agrega la siguiente variable de entorno: `WORDPRESS_API_URL=URL de la API REST de WordPress` 🔑
+3. Crea un archivo `.env.local` en la raíz del proyecto y agrega la siguiente variable de entorno: `NEXT_PUBLIC_WOOCOMMERCE_CONSUMER_KEY`, `NEXT_PUBLIC_WOOCOMMERCE_CONSUMER_SECRET` y la `URL de tu tienda de WordPress` 🔑
 4. Ejecuta el servidor de desarrollo utilizando `npm run dev` 🏃
 5. Visita `http://localhost:3000` en tu navegador para ver la tienda online 🌐
 
