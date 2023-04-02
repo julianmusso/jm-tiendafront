@@ -35,10 +35,10 @@ const Header = () => {
                     <Heading>TiendaFront</Heading>
                     {isDesktop ? (
                         <Flex justify="space-between" flex="1">
-                            <ButtonGroup variant="link" spacing="8">
+                            <ButtonGroup variant="link" spacing="8" fontFamily='inter' >
                                 {
                                     menuNav.map((item) => (
-                                        <Button key={item}>{item}</Button>
+                                        <Button key={item} _hover={{ color: 'teal.400', textDecoration: 'none' }}>{item}</Button>
                                     ))
                                 }
                             </ButtonGroup>

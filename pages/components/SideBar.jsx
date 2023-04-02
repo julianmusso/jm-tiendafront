@@ -11,13 +11,13 @@ const SideBar = () => {
                                 Categorías
                             </Heading>
                             <Box color='teal.600'>
-                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ color: 'teal.400', textDecoration: 'none' }}>
                                     Computadoras
                                 </Link>
-                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ color: 'teal.400', textDecoration: 'none' }}>
                                     Notebooks
                                 </Link>
-                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ color: 'teal.400', textDecoration: 'none' }}>
                                     Teléfonos
                                 </Link>
                             </Box>

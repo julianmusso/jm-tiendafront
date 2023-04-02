@@ -15,20 +15,26 @@ export default function Home({ products }) {
         <title>TiendaFront</title>
         <link rel='icon' href='/favicon.ico' />
       </Head>
-      <Container maxW="container.xl" p={0}>
-        <Flex direction={['column', 'column', 'row']} minH='100vh' maxW="container.xl" mx="auto">
 
-          <Box w={['100%', '100%', '20%']}>
-            {/* Aquí iría el código del SideBar */}
-            <SideBar />
-          </Box>
-          <Box w={['100%', '100%', '80%']}>
-            <Flex flexWrap="wrap" justifyContent="space-between">
-                {products.map((product) => <ProductCard product={product} key={product.id} />)}
-              </Flex>
-          </Box>
-        </Flex>
-      </Container>
+      {/* <Flex> for the both sides function */}
+      <Flex direction={['column', 'column', 'row']} minH='100vh' maxW="container.xl" mx="auto">
+
+        {/* SideBar: Categories & Brand Lists */}
+
+        <Box w={['100%', '100%', '20%']}>
+          <SideBar />
+        </Box>
+
+        {/* ProductsSide: List of all Products, builded on ProductsDetail component */}
+
+        <Box w={['100%', '100%', '80%']}>
+          <Flex flexWrap="wrap" justifyContent="space-between">
+            {products.map((product) => <ProductCard product={product} key={product.id} />)}
+          </Flex>
+        </Box>
+
+        {/* End of DoubleSide (</Flex>) */}
+      </Flex>
     </>
   )
 }
