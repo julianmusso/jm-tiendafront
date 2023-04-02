@@ -1,6 +1,6 @@
-# Tienda Online con API de WordPress 🛍️
+# TiendaFront: eCommerce con API de WordPress 🛍️
 
-¡Bienvenido a nuestra tienda online! Aquí encontrarás todos los productos que necesitas para tu hogar 🏠🛋️🚪
+¡Tienda Online construida con ServerSide Rendering con obtención de productos desde WooCommerce! 🏠🛋️🚪
 
 ## Descripción del proyecto
 
@@ -19,7 +19,8 @@ Este proyecto utiliza la API REST de WordPress para obtener información sobre p
 - Muestra una lista de productos obtenidos de la API REST de WordPress 📦
 - Permite filtrar productos por categoría 🗂️
 - Permite buscar productos por nombre 🔍
-- Permite ver detalles de un producto específico 🛒
+- Permite ver detalles de un producto específico 🎫
+- Permite añadir al carrito y hacer compras 🛒
 
 ## Tecnologías utilizadas
 
