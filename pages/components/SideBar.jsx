@@ -1,4 +1,4 @@
-import { Box, Container, Card, CardBody, Heading, Text, Divider, Link } from '@chakra-ui/react'
+import { Box, Container, Card, CardBody, Heading, Divider, Link } from '@chakra-ui/react'
 
 const SideBar = () => {
     return (

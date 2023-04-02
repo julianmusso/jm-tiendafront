@@ -1,19 +1,18 @@
 import { Box, ButtonGroup, Container, IconButton, Stack, Text, Heading } from '@chakra-ui/react'
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import { Logo } from './Logo'
 
 const Footer = () => {
 
     return (
         <>
-            <Box as="footer" bg='gray.100' boxShadow="sm">
+            <Box as="footer" bg='gray.200' boxShadow="sm">
                     <Container
                         maxW="container.xl"
                         py={{
                             base: '12',
                             lg: '16',
                         }}
-                        mt="10"
+                        mt="0"
                         mx="auto"
                     >
                         <Stack

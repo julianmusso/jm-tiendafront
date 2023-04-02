@@ -29,7 +29,7 @@ const Header = () => {
                     lg: '7',
                 }}
                 mx="auto"
-                mb={5}
+                mb={0}
             >
                 <HStack spacing="10" justify="space-between">
                     <Heading>TiendaFront</Heading>
