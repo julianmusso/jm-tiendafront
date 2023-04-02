@@ -6,8 +6,8 @@ const ProductCard = ({ product }) => {
 
     return (
         
-        <Container m={2} p={10}>
-                <Card maxW='sm' boxShadow='md' padding={0}>
+        <Box w={{ base: "100%", sm: "100%", md: "50%", lg: "33.33%" }} p="4">
+                <Card maxW='sm' boxShadow='md' padding={2}>
                     <CardBody>
                         <Image
                             src={product.images[0].src}
@@ -38,7 +38,7 @@ const ProductCard = ({ product }) => {
                         </ButtonGroup>
                     </CardFooter>
                 </Card>
-        </Container>
+        </Box>
     )
 }
 

@@ -23,11 +23,9 @@ export default function Home({ products }) {
             <SideBar />
           </Box>
           <Box w={['100%', '100%', '80%']}>
-            <Flex>
-              <Grid templateColumns={{ base: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)' }} gap={0}>
+            <Flex flexWrap="wrap" justifyContent="space-between">
                 {products.map((product) => <ProductCard product={product} key={product.id} />)}
-              </Grid>
-            </Flex>
+              </Flex>
           </Box>
         </Flex>
       </Container>

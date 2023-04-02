@@ -6,13 +6,14 @@ const Footer = () => {
 
     return (
         <>
-            <Box as="nav" bg='gray.100' boxShadow="sm">
+            <Box as="footer" bg='gray.100' boxShadow="sm">
                     <Container
                         maxW="container.xl"
                         py={{
                             base: '12',
                             lg: '16',
                         }}
+                        mt="10"
                         mx="auto"
                     >
                         <Stack

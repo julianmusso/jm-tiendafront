@@ -8,31 +8,36 @@ const SideBar = () => {
                     <CardBody>
                         <Box p='4'>
                             <Heading size='md' mb='4'>
-                                Categories
+                                Categorías
                             </Heading>
-                            <Box>
-                                <Link display='block' py='2' fontWeight='medium'>
-                                    Category 1
+                            <Box color='teal.600'>
+                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                    Computadoras
                                 </Link>
-                                <Link display='block' py='2' fontWeight='medium'>
-                                    Category 2
+                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                    Notebooks
                                 </Link>
-                                <Link display='block' py='2' fontWeight='medium'>
-                                    Category 3
+                                <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                    Teléfonos
                                 </Link>
                             </Box>
                             <Divider my='4' />
                             <Box>
-                                <Text fontWeight='bold'>Brands:</Text>
-                                <Box>
-                                    <Link display='block' py='2' fontWeight='medium'>
-                                        Brand 1
+                                <Heading size='md' mb='4'>
+                                    Marcas
+                                </Heading>
+                                <Box color='teal.600'>
+                                    <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                        Lenovo
                                     </Link>
-                                    <Link display='block' py='2' fontWeight='medium'>
-                                        Brand 2
+                                    <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                        Asus
                                     </Link>
-                                    <Link display='block' py='2' fontWeight='medium'>
-                                        Brand 3
+                                    <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                        Dell
+                                    </Link>
+                                    <Link display='block' py='2' fontWeight='medium' fontSize='lg' _hover={{ textDecoration: 'none' }}>
+                                        EXO
                                     </Link>
                                 </Box>
                             </Box>
